@@ -1,0 +1,19 @@
+{
+    "restic_version": "0.18.1",
+    "backup_password": "CHANGE_ME_SECURE_PASSWORD",
+    "repository": "s3:https://s3.amazonaws.com/my-bucket/restic-repo",
+    "healthcheck_url": "https://hc-ping.com/your-uuid",
+    "cron_schedule": "0 12 * * *",
+    "exclude_paths": [
+        "**/*.part",
+        "**/Cache/**",
+        "**/Caches/**",
+        "**/Thumbnails/**",
+        "**/Logs/**",
+        "**/.vscode-server"
+    ],
+    "source_paths": {
+        "docker": "/opt/docker/data",
+        "documents": "/home/user/Documents"
+    }
+}
