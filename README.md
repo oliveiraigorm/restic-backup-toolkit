@@ -1,6 +1,6 @@
 # Restic Backup Toolkit
 
-This project provides both **Python** and **Shell** scripts to automate the installation and configuration of [restic](https://restic.net/) backups on a Linux system. It replicates the functionality of a custom Ansible role.
+This project provides both **Python** and **Shell** scripts to automate the installation and configuration of [restic](https://restic.net/) backups on a Linux system.
 
 ## Features
 
